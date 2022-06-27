@@ -27,8 +27,13 @@ const networkConfig = {
 }
 
 const developmentChains = ["hardhat", "localhost"]
+const FRONT_END_ADDRESSES_FILE =
+    "../nextjs-decentralized-lottery/delottery/constants/contractAddresses.json"
+const FRONT_END_ABI_FILE = "../nextjs-decentralized-lottery/delottery/constants/abi.json"
 
 module.exports = {
     networkConfig,
     developmentChains,
+    FRONT_END_ADDRESSES_FILE,
+    FRONT_END_ABI_FILE,
 }
